@@ -1,8 +1,9 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import './index.css';
 import App from './App';
 import * as serviceWorker from './serviceWorker';
+// Uncomment the line below to include the styling
+// import './index.css';
 
 import { Provider } from 'react-redux';
 import store from './redux/store/store';
